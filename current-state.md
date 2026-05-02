@@ -1,15 +1,16 @@
 # Current State Architecture
 
-Project: Chores Cooperative (Chocoop)  
+Project: Chores Cooperative (ChoCoop)  
 Version: 0.5.0  
 Status: Production  
-Last Updated: 2026-04-24
+Last Updated: 2026-05-02  
+Owner: Sebastian Celejewski
 
 ---
 
 # Executive Summary
 
-Chocoop is a production-ready household collaboration application designed to motivate users to perform shared tasks through gamification.
+ChoCoop is a production-ready household collaboration application designed to motivate users to perform shared tasks through gamification.
 
 Version 0.5.0 is deployed to production and has already received positive user feedback.
 
@@ -56,6 +57,7 @@ Pending work items containing:
 - type
 - experience points
 - priority
+- optional instructions
 
 Can be promoted into Activities after completion.
 
