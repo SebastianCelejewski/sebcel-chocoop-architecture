@@ -12,8 +12,6 @@ This roadmap describes the incremental transformation from the current single-st
 
 The transformation is divided into controlled phases. Each phase delivers standalone value while preparing the foundation for the next step.
 
----
-
 # Phase 0 — Baseline (Completed)
 
 ## State
@@ -28,8 +26,6 @@ The transformation is divided into controlled phases. Each phase delivers standa
 - Stable product baseline
 - Validated user value
 - Starting point for architecture evolution
-
----
 
 # Phase 1 — Event Backbone Introduction
 
@@ -58,8 +54,6 @@ Introduce an event-driven integration layer without changing core behavior.
 
 No consumers required yet — focus on safe introduction.
 
----
-
 # Phase 2 — Notifications Service (MVP)
 
 ## Goal
@@ -83,8 +77,6 @@ Deliver first user-facing value from the event-driven architecture.
 - Proof of event-driven architecture viability
 - First externalized capability outside core app
 
----
-
 # Phase 3 — Time-Based Processing
 
 ## Goal
@@ -105,8 +97,6 @@ Enable scheduled logic independent of user actions.
 
 - System gains time-awareness
 - Enables next phase (Kimbalontek)
-
----
 
 # Phase 4 — Kimbalontek Engine (MVP)
 
@@ -135,8 +125,6 @@ Introduce emotional engagement layer.
 - First domain intelligence outside core app
 - New engagement mechanism
 
----
-
 # Phase 5 — Notification Expansion
 
 ## Goal
@@ -159,8 +147,6 @@ Enhance user engagement and delivery mechanisms.
 - Rich notification experience
 - Strong user engagement loop
 
----
-
 # Phase 6 — Architecture Stabilization
 
 ## Goal
@@ -180,8 +166,6 @@ Consolidate and refine the architecture.
 - Clear service responsibilities
 - Production-ready structure
 
----
-
 # Dependency Flow
 
 The phases must follow this order:
@@ -192,16 +176,12 @@ The phases must follow this order:
                 → Kimbalontek
                     → Advanced Notifications
 
----
-
 # Guiding Principles for Execution
 
 - deliver working software at each phase  
 - avoid breaking existing functionality  
 - introduce new components incrementally  
 - validate each step before proceeding  
-
----
 
 # Success Criteria
 
@@ -211,8 +191,6 @@ The roadmap is successful when:
 - new capabilities are implemented as independent services  
 - communication happens via events, not direct calls  
 - system remains simple and maintainable  
-
----
 
 # Summary
 
