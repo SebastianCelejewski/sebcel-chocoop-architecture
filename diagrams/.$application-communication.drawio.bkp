@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2026-05-05T12:28:46.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ZJ87ffj-GKcvesW_VVHD" version="22.1.15" type="device">
+  <diagram name="Page-1" id="6c1hidZZY38m7BOYez90">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IzE3XNUFVCffipf85_vx-3" value="Interactions (UI/API)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="1" source="5CLsfMeGVJTbMkh2X6cQ-8" target="IzE3XNUFVCffipf85_vx-2" edge="1">
+          <mxGeometry x="-0.2757" y="-9" relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="360" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IzE3XNUFVCffipf85_vx-2" target="IzE3XNUFVCffipf85_vx-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="290" />
+              <mxPoint x="360" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-2" value="ChoCoop App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IzE3XNUFVCffipf85_vx-6" target="IzE3XNUFVCffipf85_vx-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="250" />
+              <mxPoint x="840" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CLsfMeGVJTbMkh2X6cQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IzE3XNUFVCffipf85_vx-6" target="IzE3XNUFVCffipf85_vx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="260" />
+              <mxPoint x="560" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-6" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="280" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5CLsfMeGVJTbMkh2X6cQ-2" value="Notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IzE3XNUFVCffipf85_vx-8" target="5CLsfMeGVJTbMkh2X6cQ-8">
+          <mxGeometry x="0.2131" y="-9" relative="1" as="geometry">
+            <mxPoint x="600" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="80" />
+              <mxPoint x="600" y="80" />
+              <mxPoint x="600" y="79" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-8" value="Notifications Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5CLsfMeGVJTbMkh2X6cQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IzE3XNUFVCffipf85_vx-9" target="IzE3XNUFVCffipf85_vx-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="270" />
+              <mxPoint x="640" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzE3XNUFVCffipf85_vx-9" value="Kimbalontek Engine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5CLsfMeGVJTbMkh2X6cQ-8" value="Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="581" y="60" width="38" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2026-05-05T12:59:02.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8yRuZOMf8Wm-iOACytxc" version="22.1.15" type="device">
+  <diagram name="Data Dissemination Diagram" id="QCSJRgSCPMr4twW7RfyA">
+    <mxGraphModel dx="1098" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uazqf9UUrscZF6fC0pv_-21" value="publishes Activity&lt;br&gt;publishes WorkRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-1" target="uazqf9UUrscZF6fC0pv_-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="380" />
+              <mxPoint x="361" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-1" value="ChoCoop App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-2" value="Notifications Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="761" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-25" value="publishes Mood" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-3" target="uazqf9UUrscZF6fC0pv_-15">
+          <mxGeometry x="0.75" y="-1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="390" />
+              <mxPoint x="641" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-3" value="Kimbalontek Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-4" value="Activity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-5" value="WorkRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-6" value="Reaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-7" value="ExperienceStatistics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-8" value="Mood" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-15" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="440" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-20" value="owns" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-1" target="uazqf9UUrscZF6fC0pv_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="460" as="sourcePoint" />
+            <mxPoint x="451" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-22" value="owns" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-3" target="uazqf9UUrscZF6fC0pv_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="711" y="400" as="sourcePoint" />
+            <mxPoint x="761" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-26" value="consumes Activity&lt;br&gt;consumes WorkRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-15" target="uazqf9UUrscZF6fC0pv_-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371" y="290" as="sourcePoint" />
+            <mxPoint x="371" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561" y="410" />
+              <mxPoint x="561" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uazqf9UUrscZF6fC0pv_-28" value="consumes Activity&lt;br&gt;consumes WorkRequest&lt;br&gt;consumes Mood" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uazqf9UUrscZF6fC0pv_-15" target="uazqf9UUrscZF6fC0pv_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571" y="450" as="sourcePoint" />
+            <mxPoint x="571" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="841" y="420" />
+              <mxPoint x="841" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
