@@ -6,8 +6,6 @@ Status: Production
 Last Updated: 2026-05-02  
 Owner: Sebastian Celejewski
 
----
-
 # Executive Summary
 
 ChoCoop is a production-ready household collaboration application designed to motivate users to perform shared tasks through gamification.
@@ -15,8 +13,6 @@ ChoCoop is a production-ready household collaboration application designed to mo
 Version 0.5.0 is deployed to production and has already received positive user feedback.
 
 The platform currently operates as a single integrated serverless application combining frontend, backend, authentication, and data storage in one main deployment stack.
-
----
 
 # Business Capabilities Available Today
 
@@ -35,8 +31,6 @@ Users receive XP points and reactions for completed work.
 ## Visibility & Fairness
 
 Shared task history provides transparency of contributions.
-
----
 
 # Functional Scope
 
@@ -64,8 +58,6 @@ Can be promoted into Activities after completion.
 ## Users
 
 Authenticated participants with nicknames and XP progression.
-
----
 
 # Technology Landscape
 
@@ -95,8 +87,6 @@ Authenticated participants with nicknames and XP progression.
 
 - Playwright end-to-end tests
 
----
-
 # Deployment Model
 
 Current solution is deployed primarily as one integrated stack.
@@ -107,8 +97,6 @@ Characteristics:
 - fast iteration speed
 - low operational overhead
 - tightly grouped infrastructure lifecycle
-
----
 
 # Strengths
 
@@ -127,8 +115,6 @@ Managed cloud services minimize maintenance effort.
 ## Good Product Direction
 
 Gamification and household collaboration have clear user value.
-
----
 
 # Constraints / Pain Points
 
@@ -152,8 +138,6 @@ No push, scheduled, or engagement notifications yet.
 
 Kimbalontek mood engine does not exist yet.
 
----
-
 # Architecture Risks
 
 ## Growth Inside Main Stack
@@ -164,8 +148,6 @@ Future capabilities may accumulate inside the current stack if boundaries are no
 
 New modules added directly into the current backend may reduce maintainability.
 
----
-
 # Strategic Opportunity
 
 Chocoop is at a strong transition point:
@@ -175,8 +157,6 @@ Chocoop is at a strong transition point:
 - architecture can evolve before scale creates friction
 
 This creates an ideal opportunity for structured architecture transformation.
-
----
 
 # Current Architecture Summary
 
