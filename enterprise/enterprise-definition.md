@@ -3,20 +3,41 @@
 Project: Celejewski Family Enterprise
 Scope: Preliminary Phase / Business Architecture
 Status: Draft
-Last Updated: 2026-06-05
+Last Updated: 2026-06-08
 Owner: Sebastian Celejewski
 
-## Overview
+# Overview
 
-The enterprise is defined as the Celejewski family operating as a cooperative household unit.
+The enterprise is defined as the Celejewski family operating as a cooperative household and socio-technical ecosystem.
 
-The enterprise includes family members, household coordination processes, supporting software systems, operational infrastructure, and the development capabilities used to create and evolve those systems.
+The enterprise includes:
 
-ChoCoop is considered one of the enterprise systems supporting selected enterprise capabilities, rather than the enterprise itself.
+* family members
+* household coordination processes
+* operational responsibilities
+* supporting software systems
+* cloud infrastructure
+* architectural and operational practices
+* learning and experimentation activities
+* development and operational capabilities
+
+The enterprise intentionally combines:
+
+* household coordination
+* software engineering
+* cloud operations
+* experimentation
+* learning
+* creative activities
+* professional development
+
+The ecosystem evolves incrementally through continuous operational use, experimentation, and architectural evolution.
+
+ChoCoop is considered one of several enterprise systems supporting selected enterprise capabilities, rather than the enterprise itself.
 
 # Enterprise Purpose
 
-The purpose of the enterprise is to support healthy, sustainable, and cooperative family life through:
+The purpose of the enterprise is to support healthy, sustainable, cooperative, and well-coordinated family life through:
 
 * household coordination
 * fair distribution of responsibilities
@@ -26,7 +47,15 @@ The purpose of the enterprise is to support healthy, sustainable, and cooperativ
 * shared decision-making
 * emotional and social well-being
 
-Additionally, software creation and operation are treated as important supporting activities within the enterprise ecosystem.
+The enterprise also intentionally supports:
+
+* experimentation
+* software engineering practice
+* architecture learning
+* cloud learning
+* creative expression
+* professional development
+* recreational and hobby-oriented activities
 
 # Enterprise Scope
 
@@ -34,12 +63,20 @@ The enterprise consists of:
 
 * family members
 * household processes and responsibilities
-* software systems supporting family coordination
+* software systems supporting family activities
 * AWS cloud infrastructure
 * development and operational environments
 * architectural and operational knowledge
 * software development capabilities
 * household devices used to access systems
+* supporting operational and governance practices
+
+The enterprise scope includes both:
+
+* real-world household operations
+* digital systems supporting those operations
+
+The enterprise intentionally treats technology as a supporting element of family life rather than a replacement for interpersonal interaction.
 
 # Enterprise Units
 
@@ -60,13 +97,66 @@ The enterprise consists of:
 * motivation and gamification
 * visibility of contributions
 * operational management of household systems
+* financial planning and tracking
+* household inventory management
+* family media management
+* learning and experimentation
+* cloud operations and architecture governance
 
-### Core Systems
+# Enterprise Systems Landscape
 
-* ChoCoop
-* supporting AWS infrastructure
+The enterprise ecosystem currently includes multiple family-oriented systems and supporting tools.
+
+## Household Coordination Systems
+
+* ChoCoop — household coordination, gamification, work tracking, and social interaction platform
+
+## Financial and Planning Systems
+
+* budget management ecosystem — budgeting, planning, verification, and financial analysis using:
+
+  * sebcel-receipt-analyzer
+  * Excel
+  * supporting analytical tools
+
+## Inventory and Knowledge Systems
+
+* inventory system — household book inventory management
+
+## Health Observation Systems
+
+* Boli Pocia Główka — headache tracking and observation system
+
+## Family Media Systems
+
+* systems for collecting, processing, organizing, storing, and publishing family photos and videos
+
+## Music Creation Ecosystem
+
+* systems and workflows supporting:
+
+  * music creation
+  * recording
+  * mixing
+  * storage
+  * publication
+
+This ecosystem is used primarily by Sebastian and his son.
+
+## Architecture and Learning Systems
+
+* architecture repository
+* ADR ecosystem
+* diagrams and governance documentation
+* learning and experimentation environments
+
+## Core Technical Systems
+
+* AWS cloud infrastructure
 * Cognito identity management
 * event-driven integration mechanisms
+* backup and recovery mechanisms
+* deployment and migration infrastructure
 
 ## Soft Enterprise Units
 
@@ -76,6 +166,7 @@ The enterprise consists of:
 * architecture repository
 * CI/CD and deployment processes
 * experimental and analytical features
+* learning and certification materials
 
 ## Extended Enterprise
 
@@ -84,7 +175,9 @@ The enterprise consists of:
 * internet infrastructure
 * DNS providers
 * third-party development ecosystems
+* open-source ecosystems
 * external architectural knowledge and frameworks
+* cloud certification ecosystems
 
 # Stakeholders
 
@@ -100,6 +193,7 @@ The enterprise consists of:
 * future contributors
 * future maintainers
 * external service providers
+* cloud and infrastructure providers
 
 # Stakeholder Concerns
 
@@ -114,12 +208,15 @@ Key enterprise concerns include:
 * maintaining low operational overhead
 * maintaining flexibility and evolvability of systems
 * supporting experimentation and learning
+* preserving emotional comfort and family atmosphere
+* maintaining operational safety and recoverability
 
 # Architectural Scope
 
 The architecture repository covers:
 
 * business architecture
+* enterprise architecture
 * application architecture
 * cloud infrastructure architecture
 * operational architecture
@@ -129,6 +226,10 @@ The architecture repository covers:
 * governance and operational practices
 * architectural decision records (ADRs)
 
+The current ADM architecture effort focuses primarily on the Chores Cooperative (ChoCoop) ecosystem and its supporting operational and governance environment.
+
+Other enterprise systems are currently documented primarily for enterprise context and ecosystem understanding purposes.
+
 # Additional Context
 
 Software development within the enterprise serves multiple purposes simultaneously:
@@ -137,6 +238,16 @@ Software development within the enterprise serves multiple purposes simultaneous
 * supporting family cooperation
 * enabling experimentation and learning
 * supporting professional development
+* enabling architecture and cloud practice
 * providing creative and recreational value
 
-This multi-purpose nature of the enterprise significantly influences architectural decisions and system evolution.
+This multi-purpose nature of the enterprise significantly influences:
+
+* architecture decisions
+* technology selection
+* operational maturity
+* governance evolution
+* experimentation strategy
+* system evolution patterns
+
+The enterprise intentionally treats software systems not only as operational tools, but also as learning environments and creative platforms within a broader family-oriented socio-technical ecosystem.
