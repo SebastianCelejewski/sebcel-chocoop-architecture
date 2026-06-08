@@ -12,8 +12,6 @@ This document describes legal, privacy, identity, and security-related framework
 
 The enterprise operates as a small private household ecosystem rather than a formal commercial organization. Nevertheless, privacy, identity management, operational security, and recoverability are treated as important architectural and operational concerns.
 
----
-
 # Privacy and Personal Data Awareness
 
 The ecosystem stores and processes information related to identifiable individuals, including:
@@ -38,8 +36,6 @@ Privacy considerations influence:
 * data visibility
 * operational practices
 
----
-
 # Identity and Authentication Management
 
 The ecosystem uses AWS Cognito as the primary identity management and authentication platform.
@@ -59,8 +55,6 @@ Special operational attention is given to:
 * environment isolation
 * authentication reliability
 
----
-
 # Environment Isolation
 
 Separate environments are maintained for:
@@ -78,8 +72,6 @@ Environment isolation supports:
 
 The enterprise intentionally avoids performing high-risk operational changes directly on production systems whenever practical.
 
----
-
 # Backup and Recoverability
 
 Operational recoverability is treated as an important enterprise concern.
@@ -94,8 +86,6 @@ Current recoverability mechanisms include:
 
 The enterprise recognizes recoverability as a core operational requirement rather than an optional operational feature.
 
----
-
 # Credential and Access Management
 
 Credential and access management practices include:
@@ -107,8 +97,6 @@ Credential and access management practices include:
 * operational credential handling
 
 The ecosystem intentionally minimizes unnecessary operational exposure whenever practical.
-
----
 
 # Operational Security Awareness
 
@@ -125,8 +113,6 @@ Operational security considerations include:
 * backup protection
 
 Security is treated as an ongoing operational responsibility integrated into daily system evolution.
-
----
 
 # Legal and Organizational Context
 
