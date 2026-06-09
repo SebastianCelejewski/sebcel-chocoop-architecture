@@ -176,3 +176,65 @@ The enterprise ecosystem simultaneously serves:
 * creative and recreational goals
 
 This capability significantly influences the evolution speed, architectural complexity, and technological direction of the ecosystem.
+
+# Capability Relationships
+
+Enterprise capabilities are interconnected and frequently reinforce or influence one another.
+
+The current ecosystem demonstrates several important capability relationships and dependencies.
+
+| Capability                              | Related Capabilities                                  | Relationship                                                                     |
+| --------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Household Coordination                  | Household Planning, Responsibility Sharing            | Coordination depends on visibility of pending work and responsibility allocation |
+| Household Work Execution                | Motivation and Encouragement, Household Coordination  | Effective execution depends on both coordination and willingness to participate  |
+| Responsibility Sharing                  | Contribution Visibility, Conflict Resolution          | Perceived fairness depends on visibility and ability to discuss imbalances       |
+| Family Communication                    | Conflict Resolution, Household Coordination           | Communication supports negotiation, clarification, and adaptation                |
+| Motivation and Encouragement            | Contribution Visibility, Appreciation and Recognition | Motivation is strengthened by visible acknowledgement and recognition            |
+| Contribution Visibility                 | Responsibility Sharing, Appreciation and Recognition  | Visibility enables fairness discussions and social recognition                   |
+| Appreciation and Recognition            | Motivation and Encouragement                          | Positive feedback encourages continued participation                             |
+| Household Planning                      | Household Coordination                                | Planning supports proactive coordination and workload distribution               |
+| Conflict Resolution                     | Family Communication, Contribution Visibility         | Visibility and communication support conflict management                         |
+| Financial Management                    | Motivation and Encouragement                          | Financial rewards are used as part of the motivation model                       |
+| Enterprise Learning and Experimentation | All digital and operational capabilities              | Experimentation influences continuous evolution of systems and practices         |
+
+Several important architectural observations emerge from these relationships:
+
+* capabilities frequently support one another indirectly rather than independently,
+* improving one capability does not automatically improve another,
+* tensions may exist between capabilities,
+* social and emotional dynamics strongly influence operational effectiveness,
+* software systems support capabilities but do not fully determine real-world behavior.
+
+One particularly important observation is that:
+
+* increased contribution visibility and platform engagement do not automatically guarantee increased household work execution.
+
+This distinction became one of the key architectural insights of the enterprise ecosystem.
+
+# Capability Assessment Summary
+
+The current enterprise ecosystem demonstrates varying levels of maturity and effectiveness across different capabilities.
+
+The following assessment reflects current observed effectiveness rather than theoretical importance.
+
+| Capability                              | Relative Assessment | Observations                                                                                                        |
+| --------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Household Coordination                  | Medium-Strong       | Coordination mechanisms exist and are regularly used                                                                |
+| Household Work Execution                | Medium              | Real-world execution remains inconsistent despite system engagement                                                 |
+| Responsibility Sharing                  | Medium              | Visibility exists, but perceived fairness tensions still occur                                                      |
+| Family Communication                    | Medium              | Communication exists both inside and outside systems, with ongoing tension between digital and offline coordination |
+| Motivation and Encouragement            | Mixed               | Platform engagement is high, but behavioral impact is weaker than originally expected                               |
+| Contribution Visibility                 | Strong              | One of the most successful capabilities supported by the ecosystem                                                  |
+| Appreciation and Recognition            | Medium-Strong       | Reactions and visible history positively support acknowledgement                                                    |
+| Household Planning                      | Weak-Medium         | Planning support remains relatively limited and partially informal                                                  |
+| Conflict Resolution                     | Medium              | Visibility and statistics help discussions but may also increase tension                                            |
+| Financial Management                    | Medium              | Reward mechanisms exist but long-term effectiveness remains uncertain                                               |
+| Enterprise Learning and Experimentation | Very Strong         | Continuous experimentation and iterative evolution are defining characteristics of the ecosystem                    |
+
+Overall observations:
+
+* the ecosystem demonstrates strong capability for experimentation and incremental evolution,
+* social and emotional capabilities remain more difficult to optimize than technical capabilities,
+* visibility and operational awareness are currently stronger than direct behavioral influence,
+* lightweight governance and iterative evolution positively support long-term adaptability,
+* the ecosystem increasingly functions as both an operational household platform and a socio-technical experimentation environment.
